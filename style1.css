@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 84%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(202, 195, 195, 0.5)), url("https://i.pinimg.com/564x/cf/97/b0/cf97b0132833710742b1b3b66133aea4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.body{
+    background-color: rgb(0, 0, 0,0.7);
+}
+nav{
+    width: 84%;
+    height: 80px;
+    display: flex;
+    padding: 2% 9%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+    margin-left: -80%;
+    margin-top: -35%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-top: -5%;
+    margin-right: -10%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e60202;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 55px;
+}
+.text-box p{
+    font-size: 25px;
+    margin: 10px 0 40px;
+}
+
+/*----- footer -----*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    color: rgb(199, 199, 199);
+    background-color: rgb(0, 0, 0);
+}
+
+.footer p{
+    font-size: 19px;
+}
+
+/*----- about us -----*/
+
+.sub-header-1{
+    min-height: 50vh;
+    width: 84%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(202, 195, 195, 0.5)), url("https://i.pinimg.com/564x/90/e9/50/90e9501396b008dabffe192f4e41d782.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;    
+}
+.sub-header h1{
+    margin-bottom: 50px;
+}
+.about-us{
+    background-color: rgb(197, 197, 197);
+    padding:40px;
+    width: cover;
+    display: flex;
+    text-align: center; 
+    margin: 0;
+}
+.about-us h1{
+    margin-right: 30px;
+    width: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.about-us p {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.about-us img{
+    width: 70%;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.abt{
+    padding: 40px;
+    width: cover;
+    display: flex
+}
+.abt h1{
+    width:auto;
+    display:flex;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.abt p{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.abt img{
+    width: 70%;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.wrapper1{
+    margin-top: 10px;
+}
+.wrapper1 h1{
+    background-color: rgb(197, 197, 197);
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.goal{
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: space-between;
+}
+.goal .mission-vision{
+    background-color: rgb(197, 197, 197);
+    flex-basis: 30%;
+    border-radius: 10px;
+    background:rgb(122, 122, 122);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 30px;
+    position: relative;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.goal .mission-vision:hover{
+    box-shadow: 0 0 20px 0px rgba(170, 2, 2, 0.7);
+
+}
+.goal .mission-vision h2{
+    color:#111111;
+}
+.goal .mission-vision .value{
+    text-align: center;
+    list-style: none;
+}
+/*------ services -------*/
+
+.sub-header-2{
+    min-height: 50vh;
+    width: 84%;
+    background-image: linear-gradient(rgba(161, 160, 160, 0.5),rgba(0, 0, 0, 0.5)), url("hey.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;    
+}
+.wrapper2{
+    min-height: 100vh;
+    width: 84%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("tech3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    text-align: center;
+    color: rgb(255, 255, 255);   
+}
+.information:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.7);
+}
+.services{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("tech3.jpg");
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 40px;
+    width: cover;
+    display: flex   
+
+}
+.services img{
+    width: 60%;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 30px;
+}
+.services img:hover{
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.7);
+}
+.services h1{
+    font-size: 40px;
+    padding: 20px;
+}
+.services p{
+    padding: 20px;
+}
+
+.info{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.information{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.information img{
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+.information p{
+    color: aliceblue;
+    padding: 0;
+}
+.information h4{
+    color: aliceblue;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size:x-large;
+}
+/*-----contact-----*/
+
+.sub-header-4{
+    min-height: 50vh;
+    width: 84%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(202, 195, 195, 0.5)), url("app.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: x-large;
+}
+.wrapper3{
+    min-height: 60vh;
+    width: 84%;
+    background-image: linear-gradient(rgba(116, 114, 114, 0.5),rgba(199, 192, 192, 0.5)), url("ey.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 8%;
+    text-align: center;
+    color: rgb(255, 255, 255);   
+}
+form{
+    width:90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom:30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+}
+input:focus~label,
+input:valid~label
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
